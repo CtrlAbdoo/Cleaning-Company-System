@@ -34,24 +34,26 @@ namespace System_Design
 
         }
 
-        private void button2_Click(object sender, EventArgs e)
+       
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label3_Click(object sender, EventArgs e)
         {
             Form4 f4 = new Form4();
             this.Hide();
             f4.Show();
         }
 
-        private void button3_Click(object sender, EventArgs e)
+        private void label5_Click(object sender, EventArgs e)
         {
             Form1 f1 = new Form1();
             forget_my_password f2 = new forget_my_password();
             this.Hide();
             f2.Show();
-        }
-
-        private void Form1_Load(object sender, EventArgs e)
-        {
-
         }
     }
 }
