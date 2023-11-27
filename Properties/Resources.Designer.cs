@@ -73,6 +73,16 @@ namespace System_Design.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap magnifying_glass_blue_background_search_concept_661495_10932 {
+            get {
+                object obj = ResourceManager.GetObject("magnifying-glass-blue-background-search-concept_661495-10932", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Spring_cleaning_concept {
             get {
                 object obj = ResourceManager.GetObject("Spring cleaning concept", resourceCulture);

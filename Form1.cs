@@ -19,18 +19,13 @@ namespace System_Design
 
         private void button1_Click(object sender, EventArgs e)
         {
-            if (textBox1.Text=="1"&& textBox2.Text=="1")
-            {
+           
                 Home f1 = new Home();
                 Form2 f2 = new Form2();
                 this.Hide();
                 f2.Show();
                 
-            }
-            else
-            {
-                MessageBox.Show("Wrong National Number or Password");
-            }
+          
 
         }
 
@@ -59,6 +54,14 @@ namespace System_Design
         private void button2_Click(object sender, EventArgs e)
         {
             Application.Exit();
+        }
+
+        private void button1_Click_1(object sender, EventArgs e)
+        {
+            Home f1 = new Home();
+            Form2 f2 = new Form2();
+            this.Hide();
+            f2.Show();
         }
     }
 }

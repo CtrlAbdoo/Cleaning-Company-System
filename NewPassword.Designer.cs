@@ -40,6 +40,7 @@ namespace System_Design
             // label1
             // 
             this.label1.AutoSize = true;
+            this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(50, 58);
             this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
@@ -51,6 +52,7 @@ namespace System_Design
             // label2
             // 
             this.label2.AutoSize = true;
+            this.label2.BackColor = System.Drawing.Color.Transparent;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.Location = new System.Drawing.Point(50, 102);
             this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
@@ -62,7 +64,7 @@ namespace System_Design
             // textBox1
             // 
             this.textBox1.Location = new System.Drawing.Point(245, 58);
-            this.textBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.textBox1.Margin = new System.Windows.Forms.Padding(2);
             this.textBox1.Name = "textBox1";
             this.textBox1.PasswordChar = '*';
             this.textBox1.Size = new System.Drawing.Size(145, 20);
@@ -71,7 +73,7 @@ namespace System_Design
             // textBox2
             // 
             this.textBox2.Location = new System.Drawing.Point(245, 102);
-            this.textBox2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.textBox2.Margin = new System.Windows.Forms.Padding(2);
             this.textBox2.Name = "textBox2";
             this.textBox2.PasswordChar = '*';
             this.textBox2.Size = new System.Drawing.Size(145, 20);
@@ -80,7 +82,7 @@ namespace System_Design
             // button1
             // 
             this.button1.Location = new System.Drawing.Point(290, 156);
-            this.button1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button1.Margin = new System.Windows.Forms.Padding(2);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(71, 24);
             this.button1.TabIndex = 4;
@@ -91,7 +93,7 @@ namespace System_Design
             // button2
             // 
             this.button2.Location = new System.Drawing.Point(118, 156);
-            this.button2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button2.Margin = new System.Windows.Forms.Padding(2);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(71, 24);
             this.button2.TabIndex = 5;
@@ -103,14 +105,16 @@ namespace System_Design
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(578, 266);
+            this.BackgroundImage = global::System_Design.Properties.Resources.image_processing20210903_9700_1nez6w6;
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.ClientSize = new System.Drawing.Size(429, 233);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.textBox2);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "NewPassword";
             this.Text = "NewPassword";
             this.Load += new System.EventHandler(this.NewPassword_Load);

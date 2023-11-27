@@ -19,16 +19,10 @@ namespace System_Design
 
         private void button1_Click(object sender, EventArgs e)
         {
-            if (textBox1.Text!="1")
-            {
-                MessageBox.Show("Worng National Number");
+               panel1.Visible = false;
+               panel2.Visible = true;
 
-            }
-            else
-            {
-               panel2.BringToFront();
-
-            }
+            
         }
 
         private void button2_Click(object sender, EventArgs e)
@@ -55,5 +49,7 @@ namespace System_Design
         {
 
         }
+
+       
     }
 }

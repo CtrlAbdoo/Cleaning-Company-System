@@ -149,5 +149,8 @@
   <ItemGroup>
     <None Include="Resources\image_processing20210903-9700-1nez6w6.gif" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\magnifying-glass-blue-background-search-concept_661495-10932.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

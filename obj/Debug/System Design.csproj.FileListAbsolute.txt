@@ -82,3 +82,20 @@ C:\Users\theno\source\repos\SD_Project\New folder\obj\Debug\System Design.csproj
 C:\Users\theno\source\repos\SD_Project\New folder\obj\Debug\System Design.exe
 C:\Users\theno\source\repos\SD_Project\New folder\obj\Debug\System Design.pdb
 C:\Users\theno\source\repos\SD_Project\New folder\obj\Debug\System_Design.Home.resources
+C:\Users\theno\source\repos\SD_Project\New folder (3)\bin\Debug\System Design.exe.config
+C:\Users\theno\source\repos\SD_Project\New folder (3)\bin\Debug\System Design.exe
+C:\Users\theno\source\repos\SD_Project\New folder (3)\bin\Debug\System Design.pdb
+C:\Users\theno\source\repos\SD_Project\New folder (3)\obj\Debug\System Design.csproj.AssemblyReference.cache
+C:\Users\theno\source\repos\SD_Project\New folder (3)\obj\Debug\System_Design.forget_my_password.resources
+C:\Users\theno\source\repos\SD_Project\New folder (3)\obj\Debug\System_Design.Home.resources
+C:\Users\theno\source\repos\SD_Project\New folder (3)\obj\Debug\System_Design.Form2.resources
+C:\Users\theno\source\repos\SD_Project\New folder (3)\obj\Debug\System_Design.Form3.resources
+C:\Users\theno\source\repos\SD_Project\New folder (3)\obj\Debug\System_Design.Form4.resources
+C:\Users\theno\source\repos\SD_Project\New folder (3)\obj\Debug\System_Design.NewPassword.resources
+C:\Users\theno\source\repos\SD_Project\New folder (3)\obj\Debug\System_Design.Properties.Resources.resources
+C:\Users\theno\source\repos\SD_Project\New folder (3)\obj\Debug\System_Design.Visa.resources
+C:\Users\theno\source\repos\SD_Project\New folder (3)\obj\Debug\System_Design.VisaVerifection.resources
+C:\Users\theno\source\repos\SD_Project\New folder (3)\obj\Debug\System Design.csproj.GenerateResource.cache
+C:\Users\theno\source\repos\SD_Project\New folder (3)\obj\Debug\System Design.csproj.CoreCompileInputs.cache
+C:\Users\theno\source\repos\SD_Project\New folder (3)\obj\Debug\System Design.exe
+C:\Users\theno\source\repos\SD_Project\New folder (3)\obj\Debug\System Design.pdb
