@@ -38,7 +38,7 @@ namespace System_Design
         private void button2_Click(object sender, EventArgs e)
         {
             Form2 f2 = new Form2();
-            Form1 f1 = new Form1();
+            Home f1 = new Home();
             this.Hide();
             f1.Show();
         }

@@ -26,10 +26,7 @@ namespace System_Design
             }
             else
             {
-                label2.Visible = true;
-                textBox2.Visible = true;
-                button2.Visible = true;
-                button3.Visible = true;
+               panel2.BringToFront();
 
             }
         }
@@ -49,7 +46,7 @@ namespace System_Design
 
         private void button4_Click(object sender, EventArgs e)
         {
-            Form1 f1 = new Form1();
+            Home f1 = new Home();
             this.Hide();
             f1.Show();
         }

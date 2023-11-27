@@ -146,5 +146,8 @@
   <ItemGroup>
     <None Include="Resources\Spring cleaning concept.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\image_processing20210903-9700-1nez6w6.gif" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
