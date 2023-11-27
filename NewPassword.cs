@@ -22,7 +22,7 @@ namespace System_Design
             if (textBox1.Text == textBox2.Text)
             {
                 MessageBox.Show("New Password Reset Successfully");
-                Form1 f1 = new Form1();
+                Home f1 = new Home();
                 this.Hide();
                 f1.Show();
             }

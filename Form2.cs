@@ -38,7 +38,7 @@ namespace System_Design
         private void button2_Click(object sender, EventArgs e)
         {
             Form2 f2 = new Form2();
-            Form1 f1 = new Form1();
+            Home f1 = new Home();
             this.Hide();
             f1.Show();
         }
@@ -46,6 +46,29 @@ namespace System_Design
         private void Form2_Load(object sender, EventArgs e)
         {
 
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button1_Click_1(object sender, EventArgs e)
+        {
+            Form2 f2 = new Form2();
+            Form3 f3 = new Form3();
+
+            if (textBox2.Text == "1" || textBox3.Text == "1")
+            {
+
+                this.Hide();
+                f3.Show();
+                f2.Close();
+            }
+            else
+            {
+                MessageBox.Show("No Documents Found ");
+            }
         }
     }
 }

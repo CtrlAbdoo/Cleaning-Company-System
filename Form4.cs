@@ -19,14 +19,14 @@ namespace System_Design
 
         private void button1_Click(object sender, EventArgs e)
         {
-            Form1 f2 = new Form1();
+            Home f2 = new Home();
             this.Hide();
             f2.Show();
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
-            Form1 f1 = new Form1();
+            Home f1 = new Home();
             this.Hide();
             f1.Show();
         }
