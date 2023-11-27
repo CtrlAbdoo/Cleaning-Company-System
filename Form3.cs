@@ -84,5 +84,24 @@ namespace System_Design
             this.Hide();
             f2.Show();
         }
+
+        private void button1_Click_1(object sender, EventArgs e)
+        {
+            if (radioButton3.Checked == true)
+                MessageBox.Show(" Process Done Successfully ");
+            else if (radioButton4.Checked == true)
+            {
+                this.Hide();
+                Visa f1 = new Visa();
+                f1.Show();
+            }
+            else
+                MessageBox.Show("Choose payment Method");
+        }
+
+        private void button2_Click_1(object sender, EventArgs e)
+        {
+            Application.Exit(); 
+        }
     }
 }
