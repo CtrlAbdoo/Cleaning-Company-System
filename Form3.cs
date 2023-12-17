@@ -45,9 +45,11 @@ namespace System_Design
 
         private void button1_Click(object sender, EventArgs e)
         {
-            if (radioButton3.Checked==true)
+            if (radioButton3.Checked == true)
+            {
                 MessageBox.Show(" Process Done Successfully ");
-            else if (radioButton4.Checked==true)
+            }
+            else if (radioButton4.Checked == true)
             {
                 this.Hide();
                 Visa f1 = new Visa();
@@ -55,6 +57,9 @@ namespace System_Design
             }
             else
                 MessageBox.Show("Choose payment Method");
+
+
+         
         }
 
         private void radioButton4_CheckedChanged(object sender, EventArgs e)
@@ -102,6 +107,13 @@ namespace System_Design
         private void button2_Click_1(object sender, EventArgs e)
         {
             Application.Exit(); 
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            Form5 form5 = new Form5();
+            form5.Show();
+            //this.Hide();
         }
     }
 }
